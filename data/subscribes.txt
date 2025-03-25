@@ -1,2 +1,2 @@
-http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=af51e2ba7f818566da5dc9cdda574a94
-https://xqsub.e54.site/api/v1/client/subscribe?token=010f297b3155b3649675967b338ec546
+https://xqsub.e54.site/api/v1/client/subscribe?token=8d35a005fd9a40d022857d31d4dd2eb8
+http://sub.kjdjakskl.cyou/api/v1/client/subscribe?token=129a14572a445e738fd389bb8fbafe4f
