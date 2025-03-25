@@ -5,88 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇨🇳 台湾原生100x, server: cn2.ansh.top, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: twys.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: twys.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇺🇸 圣何塞5, server: cf.090227.xyz, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇭🇰 香港01, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇯🇵 日本04, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇯🇵 日本02, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇺🇸 美国 纽约2, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇪🇸 西班牙, server: time.is, port: 80, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇨🇳 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, udp: true}
-  - {name: 🇺🇸 美国 纽约01, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇨🇳 台湾01, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇨🇳 台湾 1, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: X9-CUX, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇯🇵 日本01, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇭🇰 香港02, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇯🇵 日本VULTR1, server: time.is, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇭🇰 香港03, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇪🇸 西班牙极速, server: wenxiaohong.9sjd2dkesl2.shop, port: 26888, type: ss, cipher: chacha20-ietf-poly1305, password: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, udp: true}
-  - {name: 🇯🇵 日本03, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: eca988ab-3439-4863-a386-25a8506462e4, udp: true}
-  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇭🇰 香港3, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: a3c7d44d-0d99-4df1-b86e-137a2b86ed36, alterId: 0, cipher: auto, tls: true, servername: hky.xiaoqi666.xyz, network: ws, ws-opts: {path: /, headers: {Host: hky.xiaoqi666.xyz}}, udp: true}
+  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇸🇬 SG AKILE T深圳CM2 1.2x, server: 36.151.192.209, port: 50563, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇸🇬 SG CONSTANT T深圳CM2 1.2x, server: 36.151.192.209, port: 51410, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 TW TPE TWDS T深圳CM 1.2x, server: 183.236.59.92, port: 41018, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇯🇵 JP AKILE T长沙CM 1.2x, server: 36.151.192.209, port: 16127, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇭🇰 HK AKILE T遂宁CM 1.2x, server: 218.203.252.135, port: 55872, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇸🇬 SG CONSTANT T深圳CM 1.2x, server: 183.236.59.92, port: 51410, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: EYGELSHOVEN FREE, server: next1.orz.my.id, port: 53520, type: ss, cipher: chacha20-ietf-poly1305, password: 26c54c2f-c0be-44da-9450-928183db8de5, udp: true}
+  - {name: 🇭🇰 HK AKILE T深圳CM2 1.2x, server: 36.151.192.209, port: 41124, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 TAIWAN, server: next2.orz.my.id, port: 53240, type: vmess, uuid: 26c54c2f-c0be-44da-9450-928183db8de5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: next2.orz.my.id}}, udp: true}
+  - {name: 🇸🇬 SG AKILE T深圳CM 1.2x, server: 183.236.59.92, port: 50563, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇭🇰 HK AKILE T成都CM 1.2x, server: 117.173.88.171, port: 16732, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 TW TPE TWDS T遂宁CM 1.2x, server: 218.203.252.135, port: 24869, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇭🇰 香港3, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: hky.xiaoqi666.xyz, network: ws, ws-opts: {path: /, headers: {Host: hky.xiaoqi666.xyz}}, udp: true}
+  - {name: 🇨🇳 TW TPE TWDS T长沙CM 1.2x, server: 36.151.192.209, port: 14939, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 187c2f85-9143-43ff-8022-c18743e2a38d, udp: true}
+  - {name: 🇯🇵 JP AKILE T遂宁CM 1.2x, server: 218.203.252.135, port: 35454, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 TW TPE TWDS T成都CM 1.2x, server: 117.173.88.171, port: 19416, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇺🇸 圣何塞5, server: cf.090227.xyz, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇯🇵 JP OSAKA CHOOPA T深圳CM 1.2x, server: 183.236.59.92, port: 22947, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇭🇰 HK AKILE T深圳CM 1.2x, server: 183.236.59.92, port: 41124, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇯🇵 日本VULTR1, server: time.is, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇯🇵 JP OSAKA CHOOPA T遂宁CM 1.2x, server: 218.203.252.135, port: 35145, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇨🇳 TW TPE TWDS T深圳CM2 1.2x, server: 36.151.192.209, port: 41018, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇯🇵 JP OSAKA CHOOPA T深圳CM2 1.2x, server: 36.151.192.209, port: 22947, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇪🇸 西班牙极速, server: wenxiaohong.9sjd2dkesl2.shop, port: 26888, type: ss, cipher: chacha20-ietf-poly1305, password: 187c2f85-9143-43ff-8022-c18743e2a38d, udp: true}
+  - {name: 🇭🇰 HONGKONG, server: next1.orz.my.id, port: 53030, type: vmess, uuid: 26c54c2f-c0be-44da-9450-928183db8de5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: next1.orz.my.id}}, udp: true}
+  - {name: 🇪🇸 西班牙, server: time.is, port: 80, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: 337825d4-d095-4759-8fa1-c1cd1263830d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
+  - {name: 🇨🇳 台湾原生100x, server: cn2.ansh.top, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: twys.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: twys.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇸🇬 SG AKILE T长沙CM, server: 36.151.192.209, port: 60912, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇯🇵 JP AKILE T成都CM 1.2x, server: 117.173.88.171, port: 45790, type: ss, cipher: aes-128-gcm, password: 402c8ada-f2c3-419f-8b3e-162aaf6ab974, udp: true}
+  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 187c2f85-9143-43ff-8022-c18743e2a38d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾原生100x
-      - 🇺🇸 圣何塞5
-      - 🇭🇰 香港01
-      - 🇯🇵 日本04
-      - 🇯🇵 日本02
-      - 🇺🇸 美国 纽约2
       - 🇯🇵 日本V
-      - 🇪🇸 西班牙
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 美国 纽约01
+      - 🇸🇬 SG AKILE T深圳CM2 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM2 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM 1.2x
+      - 🇯🇵 JP AKILE T长沙CM 1.2x
+      - 🇭🇰 HK AKILE T遂宁CM 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM 1.2x
       - 🇺🇸 圣何塞1
-      - 🇺🇸 圣何塞2
-      - 🇨🇳 台湾01
-      - 🇨🇳 台湾 1
-      - X9-CUX
-      - 🇯🇵 日本01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本VULTR1
-      - 🇭🇰 香港03
-      - 🇪🇸 西班牙极速
-      - 🇯🇵 日本03
-      - 🇺🇸 圣何塞3
+      - EYGELSHOVEN FREE
+      - 🇭🇰 HK AKILE T深圳CM2 1.2x
+      - 🇨🇳 TAIWAN
+      - 🇸🇬 SG AKILE T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T成都CM 1.2x
+      - 🇨🇳 TW TPE TWDS T遂宁CM 1.2x
       - 🇭🇰 香港3
+      - 🇨🇳 TW TPE TWDS T长沙CM 1.2x
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇯🇵 JP AKILE T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T成都CM 1.2x
+      - 🇺🇸 圣何塞5
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T深圳CM 1.2x
+      - 🇯🇵 日本VULTR1
+      - 🇯🇵 JP OSAKA CHOOPA T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM2 1.2x
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM2 1.2x
+      - 🇪🇸 西班牙极速
+      - 🇭🇰 HONGKONG
+      - 🇪🇸 西班牙
+      - 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管
+      - 🇨🇳 台湾原生100x
+      - 🇺🇸 圣何塞3
+      - 🇺🇸 圣何塞4
+      - 🇸🇬 SG AKILE T长沙CM
+      - 🇯🇵 JP AKILE T成都CM 1.2x
+      - 🇺🇸 圣何塞2
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾原生100x
-      - 🇺🇸 圣何塞5
-      - 🇭🇰 香港01
-      - 🇯🇵 日本04
-      - 🇯🇵 日本02
-      - 🇺🇸 美国 纽约2
       - 🇯🇵 日本V
-      - 🇪🇸 西班牙
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 美国 纽约01
+      - 🇸🇬 SG AKILE T深圳CM2 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM2 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM 1.2x
+      - 🇯🇵 JP AKILE T长沙CM 1.2x
+      - 🇭🇰 HK AKILE T遂宁CM 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM 1.2x
       - 🇺🇸 圣何塞1
-      - 🇺🇸 圣何塞2
-      - 🇨🇳 台湾01
-      - 🇨🇳 台湾 1
-      - X9-CUX
-      - 🇯🇵 日本01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本VULTR1
-      - 🇭🇰 香港03
-      - 🇪🇸 西班牙极速
-      - 🇯🇵 日本03
-      - 🇺🇸 圣何塞3
+      - EYGELSHOVEN FREE
+      - 🇭🇰 HK AKILE T深圳CM2 1.2x
+      - 🇨🇳 TAIWAN
+      - 🇸🇬 SG AKILE T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T成都CM 1.2x
+      - 🇨🇳 TW TPE TWDS T遂宁CM 1.2x
       - 🇭🇰 香港3
+      - 🇨🇳 TW TPE TWDS T长沙CM 1.2x
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇯🇵 JP AKILE T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T成都CM 1.2x
+      - 🇺🇸 圣何塞5
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T深圳CM 1.2x
+      - 🇯🇵 日本VULTR1
+      - 🇯🇵 JP OSAKA CHOOPA T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM2 1.2x
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM2 1.2x
+      - 🇪🇸 西班牙极速
+      - 🇭🇰 HONGKONG
+      - 🇪🇸 西班牙
+      - 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管
+      - 🇨🇳 台湾原生100x
+      - 🇺🇸 圣何塞3
+      - 🇺🇸 圣何塞4
+      - 🇸🇬 SG AKILE T长沙CM
+      - 🇯🇵 JP AKILE T成都CM 1.2x
+      - 🇺🇸 圣何塞2
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -94,85 +130,119 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾原生100x
-      - 🇺🇸 圣何塞5
-      - 🇭🇰 香港01
-      - 🇯🇵 日本04
-      - 🇯🇵 日本02
-      - 🇺🇸 美国 纽约2
       - 🇯🇵 日本V
-      - 🇪🇸 西班牙
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 美国 纽约01
+      - 🇸🇬 SG AKILE T深圳CM2 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM2 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM 1.2x
+      - 🇯🇵 JP AKILE T长沙CM 1.2x
+      - 🇭🇰 HK AKILE T遂宁CM 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM 1.2x
       - 🇺🇸 圣何塞1
-      - 🇺🇸 圣何塞2
-      - 🇨🇳 台湾01
-      - 🇨🇳 台湾 1
-      - X9-CUX
-      - 🇯🇵 日本01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本VULTR1
-      - 🇭🇰 香港03
-      - 🇪🇸 西班牙极速
-      - 🇯🇵 日本03
-      - 🇺🇸 圣何塞3
+      - EYGELSHOVEN FREE
+      - 🇭🇰 HK AKILE T深圳CM2 1.2x
+      - 🇨🇳 TAIWAN
+      - 🇸🇬 SG AKILE T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T成都CM 1.2x
+      - 🇨🇳 TW TPE TWDS T遂宁CM 1.2x
       - 🇭🇰 香港3
+      - 🇨🇳 TW TPE TWDS T长沙CM 1.2x
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇯🇵 JP AKILE T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T成都CM 1.2x
+      - 🇺🇸 圣何塞5
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T深圳CM 1.2x
+      - 🇯🇵 日本VULTR1
+      - 🇯🇵 JP OSAKA CHOOPA T遂宁CM 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM2 1.2x
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM2 1.2x
+      - 🇪🇸 西班牙极速
+      - 🇭🇰 HONGKONG
+      - 🇪🇸 西班牙
+      - 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管
+      - 🇨🇳 台湾原生100x
+      - 🇺🇸 圣何塞3
+      - 🇺🇸 圣何塞4
+      - 🇸🇬 SG AKILE T长沙CM
+      - 🇯🇵 JP AKILE T成都CM 1.2x
+      - 🇺🇸 圣何塞2
   - name: 中国节点
     type: select
     proxies:
-      - 🇨🇳 台湾原生100x
-      - 🇭🇰 香港01
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇨🇳 台湾01
-      - 🇨🇳 台湾 1
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
+      - 🇨🇳 TW TPE TWDS T深圳CM 1.2x
+      - 🇭🇰 HK AKILE T遂宁CM 1.2x
+      - 🇭🇰 HK AKILE T深圳CM2 1.2x
+      - 🇭🇰 HK AKILE T成都CM 1.2x
+      - 🇨🇳 TW TPE TWDS T遂宁CM 1.2x
       - 🇭🇰 香港3
+      - 🇨🇳 TW TPE TWDS T长沙CM 1.2x
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇨🇳 TW TPE TWDS T成都CM 1.2x
+      - 🇭🇰 HK AKILE T深圳CM 1.2x
+      - 🇨🇳 TW TPE TWDS T深圳CM2 1.2x
+      - 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管
+      - 🇨🇳 台湾原生100x
   - name: 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本04
-      - 🇯🇵 日本02
       - 🇯🇵 日本V
-      - 🇯🇵 日本01
+      - 🇯🇵 JP AKILE T长沙CM 1.2x
+      - 🇯🇵 JP AKILE T遂宁CM 1.2x
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM 1.2x
       - 🇯🇵 日本VULTR1
-      - 🇯🇵 日本03
+      - 🇯🇵 JP OSAKA CHOOPA T遂宁CM 1.2x
+      - 🇯🇵 JP OSAKA CHOOPA T深圳CM2 1.2x
+      - 🇯🇵 JP AKILE T成都CM 1.2x
   - name: 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 SG AKILE T深圳CM2 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM2 1.2x
+      - 🇸🇬 SG CONSTANT T深圳CM 1.2x
+      - 🇸🇬 SG AKILE T深圳CM 1.2x
+      - 🇸🇬 SG AKILE T长沙CM
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国 纽约2
-      - 🇺🇸 美国 纽约01
+      - DIRECT
 rules:
-  - DOMAIN,xiaoqi.yangmie.online,DIRECT
-  - DOMAIN,cn2.ansh.top,DIRECT
-  - DOMAIN,cf.090227.xyz,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
   - DOMAIN,bookmyshow.com,DIRECT
-  - DOMAIN,time.is,DIRECT
-  - DOMAIN,hinetiw0k.yooddns.stream,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - IP-CIDR,183.236.59.92/32,DIRECT,no-resolve
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - IP-CIDR,218.203.252.135/32,DIRECT,no-resolve
+  - IP-CIDR,183.236.59.92/32,DIRECT,no-resolve
   - DOMAIN,443ip.yangmie.online,DIRECT
-  - DOMAIN,bestcf.mfwl.art,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,hk.kfsldflk.xyz,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,time.is,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,wenxiaohong.9sjd2dkesl2.shop,DIRECT
-  - DOMAIN,gy.666666222.shop,DIRECT
-  - DOMAIN,bestcf.top,DIRECT
+  - DOMAIN,next1.orz.my.id,DIRECT
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - DOMAIN,next2.orz.my.id,DIRECT
+  - IP-CIDR,183.236.59.92/32,DIRECT,no-resolve
+  - IP-CIDR,117.173.88.171/32,DIRECT,no-resolve
+  - IP-CIDR,218.203.252.135/32,DIRECT,no-resolve
   - DOMAIN,bevent.bilibili.tv,DIRECT
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - DOMAIN,hinetiw0k.yooddns.stream,DIRECT
+  - IP-CIDR,218.203.252.135/32,DIRECT,no-resolve
+  - IP-CIDR,117.173.88.171/32,DIRECT,no-resolve
+  - DOMAIN,cf.090227.xyz,DIRECT
+  - IP-CIDR,183.236.59.92/32,DIRECT,no-resolve
+  - IP-CIDR,183.236.59.92/32,DIRECT,no-resolve
+  - DOMAIN,time.is,DIRECT
+  - IP-CIDR,218.203.252.135/32,DIRECT,no-resolve
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - DOMAIN,wenxiaohong.9sjd2dkesl2.shop,DIRECT
+  - DOMAIN,next1.orz.my.id,DIRECT
+  - DOMAIN,time.is,DIRECT
+  - DOMAIN,hkt.littleqqq.co,DIRECT
+  - DOMAIN,cn2.ansh.top,DIRECT
+  - DOMAIN,bestcf.top,DIRECT
+  - DOMAIN,xiaoqi.yangmie.online,DIRECT
+  - IP-CIDR,36.151.192.209/32,DIRECT,no-resolve
+  - IP-CIDR,117.173.88.171/32,DIRECT,no-resolve
+  - DOMAIN,bestcf.mfwl.art,DIRECT
   - MATCH,手动切换
