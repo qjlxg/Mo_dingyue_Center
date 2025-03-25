@@ -1,4 +1,2 @@
-http://47.101.67.199:6699/api/v1/client/subscribe?token=5c40d3b4c3ec4de392086235c62e18ab
-https://sub.flygfw.top/HonkaiStarRail/03b68efb39f31e19d700132e86eb77b8
-https://littleqqq.co/api/v1/client/subscribe?token=c73cf7f7712f2a64bd99147157aa963e
-https://xqsub.e54.site/api/v1/client/subscribe?token=1becc19a9c3f7d02b6585b7a71c2e946
+https://xqsub.e54.site/api/v1/client/subscribe?token=c0d7ead7b0e548f389a00d6915d0c78a
+https://www.kuaidog010.top/api/v1/client/subscribe?token=2fa64c15e73d5a1e9aafae2b2c3095d8
