@@ -5,52 +5,64 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 日本VULTR1, server: time.is, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇨🇳 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 61406ad3-9d0e-4383-9748-2061c23228bb, udp: true}
-  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇪🇸 西班牙, server: time.is, port: 80, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇪🇸 西班牙极速, server: wenxiaohong.9sjd2dkesl2.shop, port: 26888, type: ss, cipher: chacha20-ietf-poly1305, password: 61406ad3-9d0e-4383-9748-2061c23228bb, udp: true}
-  - {name: 🇭🇰 香港3, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: hky.xiaoqi666.xyz, network: ws, ws-opts: {path: /, headers: {Host: hky.xiaoqi666.xyz}}, udp: true}
-  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇺🇸 圣何塞5, server: cf.090227.xyz, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇨🇳 台湾原生100x, server: cn2.ansh.top, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: twys.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: twys.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 61406ad3-9d0e-4383-9748-2061c23228bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇪🇸 西班牙, server: time.is, port: 80, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇸🇬 新加坡西部, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 032c981c-73b1-463d-acc5-486e62b7a04b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 🇨🇳 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, udp: true}
+  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇩🇪 德国法兰克福, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 032c981c-73b1-463d-acc5-486e62b7a04b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
+  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇯🇵 日本VULTR1, server: time.is, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇺🇸 圣何塞5, server: cf.090227.xyz, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇭🇰 香港3, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: hky.xiaoqi666.xyz, network: ws, ws-opts: {path: /, headers: {Host: hky.xiaoqi666.xyz}}, udp: true}
+  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇩🇪 德国, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 032c981c-73b1-463d-acc5-486e62b7a04b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
+  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇺🇸 美国, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 032c981c-73b1-463d-acc5-486e62b7a04b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
+  - {name: 🇨🇳 台湾原生100x, server: cn2.ansh.top, port: 443, type: vmess, uuid: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, alterId: 0, cipher: auto, tls: true, servername: twys.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: twys.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇪🇸 西班牙极速, server: wenxiaohong.9sjd2dkesl2.shop, port: 26888, type: ss, cipher: chacha20-ietf-poly1305, password: fdc5b2b9-d09b-4d71-9de7-add21d6666cf, udp: true}
 proxy-groups:
   - name: 手动切换
     type: select
     proxies:
-      - 🇯🇵 日本VULTR1
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 圣何塞2
       - 🇪🇸 西班牙
-      - 🇪🇸 西班牙极速
+      - 🇺🇸 圣何塞2
+      - 🇸🇬 新加坡西部
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇺🇸 圣何塞1
+      - 🇩🇪 德国法兰克福
+      - 🇺🇸 圣何塞4
+      - 🇯🇵 日本VULTR1
+      - 🇺🇸 圣何塞5
       - 🇭🇰 香港3
       - 🇺🇸 圣何塞3
-      - 🇺🇸 圣何塞5
-      - 🇨🇳 台湾原生100x
+      - 🇩🇪 德国
       - 🇯🇵 日本V
-      - 🇺🇸 圣何塞1
+      - 🇺🇸 美国
+      - 🇨🇳 台湾原生100x
+      - 🇪🇸 西班牙极速
   - name: 自动选择
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本VULTR1
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 圣何塞2
       - 🇪🇸 西班牙
-      - 🇪🇸 西班牙极速
+      - 🇺🇸 圣何塞2
+      - 🇸🇬 新加坡西部
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇺🇸 圣何塞1
+      - 🇩🇪 德国法兰克福
+      - 🇺🇸 圣何塞4
+      - 🇯🇵 日本VULTR1
+      - 🇺🇸 圣何塞5
       - 🇭🇰 香港3
       - 🇺🇸 圣何塞3
-      - 🇺🇸 圣何塞5
-      - 🇨🇳 台湾原生100x
+      - 🇩🇪 德国
       - 🇯🇵 日本V
-      - 🇺🇸 圣何塞1
+      - 🇺🇸 美国
+      - 🇨🇳 台湾原生100x
+      - 🇪🇸 西班牙极速
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -58,18 +70,22 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本VULTR1
-      - 🇺🇸 圣何塞4
-      - 🇨🇳 台湾家宽直连 20x
-      - 🇺🇸 圣何塞2
       - 🇪🇸 西班牙
-      - 🇪🇸 西班牙极速
+      - 🇺🇸 圣何塞2
+      - 🇸🇬 新加坡西部
+      - 🇨🇳 台湾家宽直连 20x
+      - 🇺🇸 圣何塞1
+      - 🇩🇪 德国法兰克福
+      - 🇺🇸 圣何塞4
+      - 🇯🇵 日本VULTR1
+      - 🇺🇸 圣何塞5
       - 🇭🇰 香港3
       - 🇺🇸 圣何塞3
-      - 🇺🇸 圣何塞5
-      - 🇨🇳 台湾原生100x
+      - 🇩🇪 德国
       - 🇯🇵 日本V
-      - 🇺🇸 圣何塞1
+      - 🇺🇸 美国
+      - 🇨🇳 台湾原生100x
+      - 🇪🇸 西班牙极速
   - name: 中国节点
     type: select
     proxies:
@@ -84,25 +100,29 @@ proxy-groups:
   - name: 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 新加坡西部
   - name: 美国节点
     type: url-test
     url: https://www.google.com/favicon.ico
     interval: 300
     tolerance: 150
     proxies:
-      - DIRECT
+      - 🇺🇸 美国
 rules:
   - DOMAIN,time.is,DIRECT
-  - DOMAIN,xiaoqi.yangmie.online,DIRECT
-  - DOMAIN,hinetiw0k.yooddns.stream,DIRECT
   - DOMAIN,bestcf.mfwl.art,DIRECT
+  - DOMAIN,westsg2-ddns.oraclenat.cc,DIRECT
+  - DOMAIN,hinetiw0k.yooddns.stream,DIRECT
+  - DOMAIN,443ip.yangmie.online,DIRECT
+  - DOMAIN,frankfurt.faforex.eu.org,DIRECT
+  - DOMAIN,xiaoqi.yangmie.online,DIRECT
   - DOMAIN,time.is,DIRECT
-  - DOMAIN,wenxiaohong.9sjd2dkesl2.shop,DIRECT
+  - DOMAIN,cf.090227.xyz,DIRECT
   - DOMAIN,bevent.bilibili.tv,DIRECT
   - DOMAIN,bestcf.top,DIRECT
-  - DOMAIN,cf.090227.xyz,DIRECT
-  - DOMAIN,cn2.ansh.top,DIRECT
+  - DOMAIN,freeyx.cloudflare88.eu.org,DIRECT
   - DOMAIN,bookmyshow.com,DIRECT
-  - DOMAIN,443ip.yangmie.online,DIRECT
+  - DOMAIN,phx-plus-1ddns.faforex.eu.org,DIRECT
+  - DOMAIN,cn2.ansh.top,DIRECT
+  - DOMAIN,wenxiaohong.9sjd2dkesl2.shop,DIRECT
   - MATCH,手动切换
