@@ -1,7 +1,7 @@
-https://terfghtll.dashuai.us/api/v1/client/subscribe?token=48bb42148d462dd533e773e4a141f549
-http://47.101.67.199:6699/api/v1/client/subscribe?token=610920ca11b403a115060b3f183c12f1
-https://5.44.251.106/api/v1/client/subscribe?token=ab7505369805c9ceb0b8b13945160e3c
-https://sub1.pingboy.top/api/v1/client/subscribe?token=721d21340acccfab00ca55181cbc9a80
-https://xqsub.e54.site/api/v1/client/subscribe?token=01a0c4cd15e7834f9cde77a028986fce
-https://api.heima2u.com/api/v1/client/subscribe?token=45cd94c0b1da5080621eca92fbff0a8e
-http://51.255.173.39/api/v1/client/subscribe?token=6176f1450396030d8fd5913afe39a16e
+https://api.heima2u.com/api/v1/client/subscribe?token=08f24c00b125740d5ac33fe9c871f36c
+https://www.kuaidog010.top/api/v1/client/subscribe?token=29172be47b0445c5cd9350d94e156a32
+https://xqsub.e54.site/api/v1/client/subscribe?token=74e36fdd53dde235630501e31e542c50
+https://sub1.pingboy.top/api/v1/client/subscribe?token=de4588cd5f1ec6d81b6e5f26b16f035c
+http://51.255.173.39/api/v1/client/subscribe?token=1496d839cb3ccac32c637e2c03e98460
+https://terfghtll.dashuai.us/api/v1/client/subscribe?token=7a5f6ef6ef08e45899106e70a12ab0cc
+https://5.44.251.106/api/v1/client/subscribe?token=12971fcf21e958e64fd75a6e9007f42e
